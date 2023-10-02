@@ -10,6 +10,6 @@
 /*                                                                           */
 /*****************************************************************************/
 
-#define TITLEMUSICPATH "/Audio/BGM/KimLightyearFriends.wav"
+#define TITLEMUSICPATH "/Audio/BGM/NoxArcana.wav"
 
 #define TITLEIMAGEPATH "/Graphics/Images/Title.png"

@@ -74,10 +74,12 @@ void MenuUpdate(GSGLOBAL* gsGlobal)
 	if(PlaystationGamePad.UP_KEY_TAP || selectedOption != 0)
     {
     	selectedOption--;
+    	idleTimer = 0;
     }
     else if(PlaystationGamePad.DOWN_KEY_TAP || selectedOption != 2)
     {
     	selectedOption++;
+    	idleTimer = 0;
     }
 
 	if(PlaystationGamePad.START_KEY_TAP)
