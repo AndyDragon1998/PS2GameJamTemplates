@@ -1,6 +1,7 @@
 EE_BIN = ProjectName.elf
 EE_BIN_COMPRESSED = compressed_$(EE_BIN)
 
+# Список фаилов
 EE_OBJS = main.o \
 	Data/pad.o Data/stateManager.o Data/introState.o Data/menuState.o Data/gameState.o Data/overState.o Data/soundEffects.o Data/musicManager.o Data/textToGraphics.o audsrv.o libsd.o padman.o
 	
